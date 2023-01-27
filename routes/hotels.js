@@ -7,7 +7,7 @@ import { verifyAdmin } from "../utils/verifyToken.js";
 
 const router = express.Router()
 
-// router.get(`/`,Productcontroller.productcontroll)
+// router.get(`/`,Productcontroller.productcontroll) //
 
 //CREATE
 router.post(`/`,verifyAdmin, createHotel);

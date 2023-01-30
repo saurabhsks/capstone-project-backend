@@ -54,9 +54,9 @@ app.use((err,req,res,next)=>{
     });
     //return res.status(500).json("Hello error from handler")
 });
-
-app.listen(5000, () => {
-    console.log(`Connected Successfully http://localhost:5000/`)
+console.log("run")
+app.listen(process.env.PORT, () => {
+    console.log(`Connected Successfully http://localhost:${process.env.PORT}/`)
 })
 // app.use((msg, req, res, next) => {
 //     console.log(msg.message)

@@ -72,7 +72,7 @@ export const getHotel=async(req,res,next)=>{
     //         msg: `${error.message}`
     //     })
     // }
-}
+};
 
 //GET ALL
 // export const getHotels = async (req, res, next) => {
